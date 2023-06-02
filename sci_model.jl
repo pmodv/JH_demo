@@ -3,7 +3,7 @@ import Pkg;
 
 Pkg.add(["CSV","Distributions","DataFrames","Tables","Primes","JuliaHub"]);
 
-using Distributions, CSV,DataFrames,Tables,Primes;
+using Distributions, CSV,DataFrames,Tables,Primes,JuliaHub;
 
     # our profound computation
 function profound_computation()   
