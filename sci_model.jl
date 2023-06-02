@@ -80,4 +80,4 @@ CSV.write("data.csv",df_table)
 
 # last step - very important
 # push data.csv to JuliaHub, enabling the analyst in Part 3 to access the dataset from the Project
-JuliaHub.upload_dataset("Dataset_3_Variable_Model", "data.csv")
+JuliaHub.upload_dataset("Dataset_3_Variable_Model", "data.csv",replace=true)
